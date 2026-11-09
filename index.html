@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bir Durak Daha — İstanbul sokaklarında geçen minibüs oyunu. Trafiği aş, yolcuları indir ve rekorunu kır.">
+  <meta name="theme-color" content="#1463b8">
+  <title>Bir Durak Daha | Mobil Oyun</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #eaf4ff;
+      color: #153456;
+      font-family: -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1463b8;
+      color: white;
+      text-align: center;
+      padding: 60px 20px 54px;
+    }
+
+    .bus-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #ffd447;
+      width: 82px;
+      height: 82px;
+      border-radius: 20px;
+      margin-bottom: 18px;
+      font-size: 44px;
+    }
+
+    h1 {
+      font-size: clamp(32px, 7vw, 46px);
+      margin: 0 0 10px;
+      line-height: 1.2;
+    }
+
+    header p {
+      font-size: 18px;
+      margin: 0;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 38px 28px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(21,52,86,.08);
+    }
+
+    h2 {
+      font-size: clamp(22px, 5vw, 28px);
+      line-height: 1.3;
+      margin: 0 0 20px;
+    }
+
+    .description {
+      color: #58708a;
+      margin-top: 18px;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 30px;
+    }
+
+    .links a {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #f0f6ff;
+      color: #1463b8;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .links a:hover,
+    .links a:focus-visible {
+      background: #dcecff;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 16px 36px;
+      font-size: 13px;
+      color: #58708a;
+    }
+
+    @media (max-width: 480px) {
+      header { padding: 48px 18px; }
+      main { margin: 24px auto; }
+      .card { padding: 30px 20px; }
+      .links { flex-direction: column; }
+      .links a { width: 100%; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="bus-icon" aria-hidden="true">🚐</div>
+    <h1>Bir Durak Daha</h1>
+    <p>Trafiği aş. Yolcuları indir.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>İstanbul'un minibüsü senin kontrolünde!</h2>
+
+      <p>
+        Yolcuları duraklardan al, trafiği aş
+        ve kendi rekorunu kır.
+      </p>
+
+      <p class="description">
+        Bir Durak Daha, İstanbul sokaklarında geçen,
+        mobil cihazlar için tasarlanmış bir trafik
+        ve minibüs oyunudur.
+      </p>
+
+      <nav class="links" aria-label="Bilgi sayfaları">
+        <a href="/privacy/">Gizlilik Politikası</a>
+        <a href="/support/">Destek</a>
+      </nav>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Bir Durak Daha · Can Bilgehan
+  </footer>
+</body>
+</html>
